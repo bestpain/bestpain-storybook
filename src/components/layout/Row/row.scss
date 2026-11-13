@@ -1,0 +1,11 @@
+@import "../../common.css";
+
+.bp-row {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: var(--body-font);
+  width: var(--bp-col-12);
+  height: 100px;
+}

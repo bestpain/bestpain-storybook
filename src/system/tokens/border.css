@@ -1,0 +1,8 @@
+:root,
+:host {
+  /* - Border */
+  --brand-base-border-color: var(--brand-basecolor-brandblack);
+  --brand-base-border-radius: var(--brand-radius-base-radius-xs);
+  --brand-base-border-style: solid;
+  --brand-base-border-width: 1px;
+}

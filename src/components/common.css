@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap");
+
+:root,
+:host {
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+
+  /* - Column */
+  --bp-full-width: 100%;
+  --bp-col-1: calc(1 / 12 * var(--bp-full-width));
+  --bp-col-2: calc(2 / 12 * var(--bp-full-width));
+  --bp-col-3: calc(3 / 12 * var(--bp-full-width));
+  --bp-col-4: calc(4 / 12 * var(--bp-full-width));
+  --bp-col-5: calc(5 / 12 * var(--bp-full-width));
+  --bp-col-6: calc(6 / 12 * var(--bp-full-width));
+  --bp-col-7: calc(7 / 12 * var(--bp-full-width));
+  --bp-col-8: calc(8 / 12 * var(--bp-full-width));
+  --bp-col-9: calc(9 / 12 * var(--bp-full-width));
+  --bp-col-10: calc(10 / 12 * var(--bp-full-width));
+  --bp-col-11: calc(11 / 12 * var(--bp-full-width));
+  --bp-col-12: calc(12 / 12 * var(--bp-full-width));
+
+  /* - Global */
+  --brand-global-font-main: "Montserrat";
+  --body-font: var(--brand-global-font-main);
+  --body-theme-font: "Montserrat";
+  --body-font-color: var(--brand-basecolor-brandblack);
+  --brand-global-margin-reset: 0;
+  --brand-global-padding-reset: 0;
+  --brand-global-outline: none;
+  --brand-global-outline--buttons: var(--brand-global-outline);
+  --brand-global-outline--input: var(--brand-global-outline);
+  --brand-global-outline--checkbox: var(--brand-global-outline);
+  --brand-global-outline--radio: var(--brand-global-outline);
+  --brand-global-outline--textarea: var(--brand-global-outline);
+  --brand-global-list-style: none;
+  --brand-global-line-height: 1.3;
+
+  /* - App */
+  --brand-app-menu-width: 65px;
+  --brand-app-menu-height: var(--bp-col-12);
+  --brand-app-header-width: var(--bp-col-12);
+  --brand-app-header-height: 40px;
+  --brand-app-cards-width: 190px;
+  --brand-app-cards-height: var(--bp-col-12);
+  --brand-app-content: 1fr;
+  --brand-app-cards-bg-color: var(--brand-graycolor-gray7);
+}
