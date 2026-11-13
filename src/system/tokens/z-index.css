@@ -1,0 +1,14 @@
+:root,
+:host {
+  /* - Zindex */
+  --brand-base-zindex-modal: 2010;
+  --brand-base-zindex-blur: calc(var(--brand-base-zindex-modal) - 10);
+  --brand-base-zindex-tooltip: 1800;
+  --brand-base-zindex-calender: 1800;
+  --brand-base-zindex-tooltip-overlay: 2000;
+  --brand-base-zindex-sticky: 1900;
+  --brand-base-zindex-panel: 3200;
+  --brand-base-zindex-dropdown: 2000;
+  --brand-base-zindex-tabs: 2;
+  --brand-base-zindex-loader: 3200;
+}

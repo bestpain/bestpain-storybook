@@ -1,0 +1,134 @@
+:root,
+:host {
+  /* - Button General */
+  --brand-btn-border-radius: var(--brand-radius-base-radius-xs);
+
+  /* --brand-btn-icon-size: 27px; */
+  --brand-btn-icon-size: 32px;
+  --brand-btn-icon-size-small: 22px;
+  --brand-btn-icon-radius: var(--bp-col-6);
+  --brand-btn-gradient-background: var(--brand-base-helpers-gradient);
+  --brand-btn-gradient-border-color: transparent;
+  --brand-btn-gradient-text-color: var(--brand-basecolor-brandwhite);
+  --brand-btn-selected-background: var(--brand-basecolor-brand7);
+
+  /* - Button Border */
+  --common-btnborder-style: var(--brand-base-border-style);
+  --common-btnborder-width: var(--brand-base-border-width);
+
+  /* - Button Size */
+  --brand-btnsize-big-height: 38px;
+  --brand-btnsize-big-min-width: 80px;
+  --brand-btnsize-big-font-size: 14px;
+  --brand-btnsize-link-font-size: 12px;
+  --brand-btnsize-big-font-weight: 500;
+  --brand-btnsize-small-height: 28px;
+  --brand-btnsize-small-min-width: 55px;
+  --brand-btnsize-rounded-height: 32px;
+  --brand-btnsize-small-font-size: 12px;
+  --brand-btnsize-small-font-weight: 700;
+  --brand-btnsize-rounded-font-size: 12px;
+  --brand-btnsize-rounded-font-weight: 500;
+
+  /* - Button Padding */
+  --brand-btnpadding-vertical: var(--brand-base-space-none);
+  --brand-btnpadding-horizental: var(--brand-base-space-medium);
+
+  /* - Button Primary */
+  --brand-btnprimary-background-color: var(--brand-basecolor-brandblack);
+  --brand-btnprimary-background-hover-color: var(--brand-basecolor-brand5);
+  --brand-btnprimary-background-active-color: var(--brand-basecolor-brandblack);
+  --brand-btnprimary-background-disabled-color: var(--brand-graycolor-gray5);
+  --brand-btnprimary-background-negative-color: var(
+    --brand-basecolor-brandwhite
+  );
+  --brand-btnprimary-background-negative-hover-color: var(
+    --brand-graycolor-gray8
+  );
+  --brand-btnprimary-background-negative-active-color: var(
+    --brand-basecolor-brandwhite
+  );
+  --brand-btnprimary-background-negative-disabled-color: var(
+    --brand-basecolor-brand5
+  );
+  --brand-btnprimary-text-color: var(--brand-basecolor-brandwhite);
+  --brand-btnprimary-text-hover-color: var(--brand-basecolor-brandwhite);
+  --brand-btnprimary-text-active-color: var(--brand-basecolor-brandwhite);
+  --brand-btnprimary-text-disabled-color: var(--brand-graycolor-gray2);
+  --brand-btnprimary-text-negative-color: var(--brand-basecolor-brandblack);
+  --brand-btnprimary-text-negative-hover-color: var(
+    --brand-basecolor-brandblack
+  );
+  --brand-btnprimary-text-negative-active-color: var(
+    --brand-basecolor-brandblack
+  );
+  --brand-btnprimary-text-negative-disabled-color: var(
+    --brand-basecolor-brandblack
+  );
+  --brand-btnprimary-border-color: var(--brand-basecolor-brandblack);
+  --brand-btnprimary-border-hover-color: transparent;
+  --brand-btnprimary-border-active-color: transparent;
+  --brand-btnprimary-border-disabled-color: var(--brand-graycolor-gray5);
+  --brand-btnprimary-border-negative-color: transparent;
+  --brand-btnprimary-border-negative-hover-color: transparent;
+  --brand-btnprimary-active-negative-border-color: transparent;
+  --brand-btnprimary-border-negative-disabled-color: transparent;
+
+  /* - Button Secondary */
+  --brand-btnsecondary-background-color: var(--brand-basecolor-brandwhite);
+  --brand-btnsecondary-background-hover-color: var(--brand-graycolor-gray8);
+  --brand-btnsecondary-background-active-color: var(--brand-graycolor-gray8);
+  --brand-btnsecondary-background-disabled-color: var(
+    --brand-basecolor-brandwhite
+  );
+  --brand-btnsecondary-background-negative-color: var(
+    --brand-basecolor-brandblack
+  );
+  --brand-btnsecondary-background-negative-hover-color: var(
+    --brand-basecolor-brand5
+  );
+  --brand-btnsecondary-background-negative-active-color: var(
+    --brand-basecolor-brandblack
+  );
+  --brand-btnsecondary-background-negative-disabled-color: var(
+    --brand-basecolor-brandblack
+  );
+  --brand-btnsecondary-text-color: var(--brand-basecolor-brandblack);
+  --brand-btnsecondary-text-hover-color: var(--brand-basecolor-brand5);
+  --brand-btnsecondary-text-active-color: var(--brand-basecolor-brandblack);
+  --brand-btnsecondary-text-disabled-color: var(--brand-graycolor-gray2);
+  --brand-btnsecondary-text-negative-color: var(--brand-basecolor-brandwhite);
+  --brand-btnsecondary-text-negative-hover-color: var(
+    --brand-basecolor-brandwhite
+  );
+  --brand-btnsecondary-text-negative-active-color: var(
+    --brand-basecolor-brandblack
+  );
+  --brand-btnsecondary-text-negative-disabled-color: var(
+    --brand-graycolor-gray4
+  );
+  --brand-btnsecondary-border-color: var(--brand-basecolor-brandblack);
+  --brand-btnsecondary-border-hover-color: var(--brand-basecolor-brand5);
+  --brand-btnsecondary-border-active-color: var(--brand-basecolor-brandblack);
+  --brand-btnsecondary-border-disabled-color: var(--brand-graycolor-gray5);
+  --brand-btnsecondary-border-negative-color: var(--brand-basecolor-brandwhite);
+  --brand-btnsecondary-border-negative-hover-color: var(
+    --brand-basecolor-brandwhite
+  );
+  --brand-btnsecondary-border-negative-active-color: transparent;
+  --brand-btnsecondary-border-negative-disabled-color: var(
+    --brand-basecolor-brandwhite
+  );
+
+  /* - Button Link */
+  --brand-btnlink-decoration: underline;
+  --brand-btnlink-seperator-color: var(--brand-base-helpers-lines);
+  --brand-btnlink-seperator-space: 10px;
+  --brand-btnlink-seperator-width: 1px;
+  --brand-btnlink-disable-text-color: var(--brand-graycolor-gray2);
+  --brand-btnlink-hover-size: 5px;
+  --brand-btnlink-hover-color: var(--brand-focus-color);
+
+  /* Button Icon */
+  --brand-btnicon-hover-color: var(--brand-focus-color);
+}

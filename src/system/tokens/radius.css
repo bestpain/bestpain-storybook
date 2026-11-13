@@ -1,0 +1,10 @@
+:root,
+:host {
+  /* - Radius */
+  --brand-radius-base-radius-xxs: 3px;
+  --brand-radius-base-radius-xs: 6px;
+  --brand-radius-base-radius-sm: 9px;
+  --brand-radius-base-radius-md: 12px;
+  --brand-radius-base-radius-lg: 20px;
+  --brand-radius-base-radius-btnrounded: 15px;
+}

@@ -1,5 +1,5 @@
+const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const path = require("node:path");
 
 module.exports = {
   mode: "development",
@@ -8,19 +8,30 @@ module.exports = {
 
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".jsx"],
+    alias: {
+      "@": path.resolve(__dirname, "src"),
+    },
   },
 
   module: {
     rules: [
+      // TypeScript / JavaScript
       {
         test: /\.(js|jsx|ts|tsx)$/,
         exclude: /node_modules/,
         use: "babel-loader",
       },
 
+      // CSS - Tailwind
       {
-        test: /\.(scss|sass)$/,
-        use: ["style-loader", "css-loader", "sass-loader"],
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader", "postcss-loader"],
+      },
+
+      // SCSS / SASS
+      {
+        test: /\.s[ac]ss$/i,
+        use: ["style-loader", "css-loader", "postcss-loader", "sass-loader"],
       },
     ],
   },

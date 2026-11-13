@@ -1,0 +1,15 @@
+:root,
+:host {
+  /* - Space */
+  --brand-base-space-auto: auto;
+  --brand-base-space-none: 0;
+  --brand-base-space-xxxxlarge: 60px;
+  --brand-base-space-xxxlarge: 45px;
+  --brand-base-space-xxlarge: 40px;
+  --brand-base-space-xlarge: 30px;
+  --brand-base-space-large: 20px;
+  --brand-base-space-big: 15px;
+  --brand-base-space: 15px;
+  --brand-base-space-medium: 10px;
+  --brand-base-space-small: 5px;
+}
