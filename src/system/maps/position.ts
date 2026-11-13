@@ -1,6 +1,80 @@
 export const alignResponsiveMap = {
-  start: "items-start",
-  center: "items-center",
-  end: "items-end",
-  stretch: "items-stretch",
-};
+  base: {
+    start: "items-start",
+    center: "items-center",
+    end: "items-end",
+    stretch: "items-stretch",
+    baseline: "items-baseline",
+  },
+  sm: {
+    start: "sm:items-start",
+    center: "sm:items-center",
+    end: "sm:items-end",
+    stretch: "sm:items-stretch",
+    baseline: "sm:items-baseline",
+  },
+  md: {
+    start: "md:items-start",
+    center: "md:items-center",
+    end: "md:items-end",
+    stretch: "md:items-stretch",
+    baseline: "md:items-baseline",
+  },
+  lg: {
+    start: "lg:items-start",
+    center: "lg:items-center",
+    end: "lg:items-end",
+    stretch: "lg:items-stretch",
+    baseline: "lg:items-baseline",
+  },
+  xl: {
+    start: "xl:items-start",
+    center: "xl:items-center",
+    end: "xl:items-end",
+    stretch: "xl:items-stretch",
+    baseline: "xl:items-baseline",
+  },
+} as const;
+
+export const justifyResponsiveMap = {
+  base: {
+    start: "justify-start",
+    center: "justify-center",
+    end: "justify-end",
+    between: "justify-between",
+    around: "justify-around",
+    evenly: "justify-evenly",
+  },
+  sm: {
+    start: "sm:justify-start",
+    center: "sm:justify-center",
+    end: "sm:justify-end",
+    between: "sm:justify-between",
+    around: "sm:justify-around",
+    evenly: "sm:justify-evenly",
+  },
+  md: {
+    start: "md:justify-start",
+    center: "md:justify-center",
+    end: "md:justify-end",
+    between: "md:justify-between",
+    around: "md:justify-around",
+    evenly: "md:justify-evenly",
+  },
+  lg: {
+    start: "lg:justify-start",
+    center: "lg:justify-center",
+    end: "lg:justify-end",
+    between: "lg:justify-between",
+    around: "lg:justify-around",
+    evenly: "lg:justify-evenly",
+  },
+  xl: {
+    start: "xl:justify-start",
+    center: "xl:justify-center",
+    end: "xl:justify-end",
+    between: "xl:justify-between",
+    around: "xl:justify-around",
+    evenly: "xl:justify-evenly",
+  },
+} as const;

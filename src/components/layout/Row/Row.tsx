@@ -1,25 +1,31 @@
-import { alignResponsiveMap } from "@/system/maps/position";
-import { Align } from "@/system/types";
+import {
+  alignResponsiveMap,
+  justifyResponsiveMap,
+} from "@/system/maps/position";
+import { Align, Justify } from "@/system/types";
 import { resolveFromMap } from "@/utils/resolveResponsiveStatic";
 import clsx from "clsx";
 import React from "react";
 import "./row.scss";
+import { BreakPointTwKey } from "@/system/maps/breakpoints";
 
 export interface Props {
   children?: React.ReactNode;
-  alignment?: Align;
+  alignment?: Partial<Record<BreakPointTwKey, Align>>;
+  justify?: Justify;
 }
 
 export type RowProps = Props;
 
 const Row = (props: RowProps): React.ReactElement => {
-  const { children, alignment } = props;
+  const { children, alignment, justify } = props;
 
   return (
     <div
       className={clsx(
         "bp-row",
         alignment && resolveFromMap(alignResponsiveMap, alignment),
+        // justify && resolveFromMap(justifyResponsiveMap, justify),
       )}
     >
       {children}
