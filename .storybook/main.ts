@@ -8,6 +8,7 @@ const config: StorybookConfig = {
     "@storybook/addon-a11y",
     "@storybook/addon-docs",
   ],
+
   framework: "@storybook/react-webpack5",
 
   webpackFinal: async (webpackConfig) => {
